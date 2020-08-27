@@ -27,7 +27,7 @@ docker create \
 version: "2"
 services:
   flexget:
-    image: winterau/flexget
+    image: flexget/flexget
     container_name: flexget
     environment:
       - PUID=<1000>
